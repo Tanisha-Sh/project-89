@@ -1,106 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>The Math Quiz</title>
+	<title>Kwitter</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
 
-   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="game.css">
-
-<script src="quiz_game_login.js"></script>
+<link rel="stylesheet" type="text/css" href="kwitter.css">
+<script src="kwitter.js"></script>
 </head>
-
 <body>
 <center>
-   <h1>Game</h1>
-  <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
-      <h3>Player 1 Login For The Game</h3>
-      <label>User Name</label>
-      <input type=" ext" id="player1_name" class="form-control" placeholder="Player 1 Name">
-      <br>
-      <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
-         <h3>Player 2 Login For The Game</h3>
-         <label>User Name</label>
-         <input type=" ext" id="player2_name" class="form-control" placeholder="Player 2 Name">
-   </div>
-   <br>
-   <button style="width: 30%;" onclick="addUser()" class="btn btn-primary">Log In</button>
+	<h1 class="header">	
+		Let's Chat	<sup>
+	<img src="m2.png">
+	</sup>
+</h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	<img src="chat-app-icon-18.jpg" class="logo">
+		<h3 >Let's Chat</h3>
+		
+		<div class="form-group">
+		  <label >User Name:</label>
+		  <input type="text" id="user_name" class="form-control" placeholder="User Name">
+
+		</div>
+		<button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+		<br><br>
+	</div>
 </center>
 </body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
